@@ -1,7 +1,7 @@
 //MAAS
 //Tech Manager
 //5-9-17
-package finalProject;
+package rooms;
 
 import java.util.Scanner;
 

@@ -1,7 +1,7 @@
 //MAAS
 //Sales office
 //5-8-17
-package finalProject;
+package rooms;
 
 import java.util.Scanner;
 

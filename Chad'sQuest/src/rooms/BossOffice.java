@@ -1,4 +1,4 @@
-package finalProject;
+package rooms;
 
 public class BossOffice {
 
