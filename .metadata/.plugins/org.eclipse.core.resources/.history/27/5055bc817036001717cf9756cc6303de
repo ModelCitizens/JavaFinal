@@ -24,13 +24,11 @@ public class ReggiesRoom {
 		 if(doorChoice.equals("OPEN DOOR")||doorChoice.equals("open door"))
 		 {
 			 System.out.print("Chad opens the door to find Reggie tinkering away at some mechanical doodad.");
-			 System.out.print("\nReggie: Hello Chad, working late I see.");
-			 System.out.print("\nYou know it wouldn't hurt to say something to the man.");
-			 System.out.print("\nRight you're one of those silent protagonists. That would explain why you're just staring at him.");
-			 System.out.print("\nI guess I'll just do the talking then, Reggie?");
-			 System.out.print("\nReggie: Who's there?");
-			 System.out.print("\nThe Tooth Fairy.");
-			 System.out.print("\nReggie: Really?");
+			 System.out.print("Reggie: Hello Chad, working late I see.");
+			 System.out.print("You know it wouldn't hurt to say something to the man.");
+			 System.out.print("Right you're one of those silent protagonists. That would explain why you're just staring at him.");
+			 System.out.print("I guess I'll just do the talking then, Reggie?");
+			 System.out.print("Reggie: Who's there?");
 			 System.out.print("");
 
 		 }
