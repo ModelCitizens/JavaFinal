@@ -99,7 +99,7 @@ public class NicksRoom
         					System.out.println("You just have to believe in your self.");
         					System.out.println("Chad feels great about himself. Eric actually helped with something.");
         					System.out.println("Chad closed his eyes and believed real hard. Chad then says: I can do it.");
-        					System.out.println("Chad then nods at Eric, and then uses his door to leave.");
+        					System.out.println("Chad then nods at Eric, and then uses his door toe leave.");
         					System.out.println("Game Over Ending 3");
         				}
         				if(input.equals("IGNORE"))

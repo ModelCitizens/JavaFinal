@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class ReggiesRoom {
 
-	public static void Reroom()
+	public void Reroom()
 	{
 		String doorChoice;
 		String moralChoice;
@@ -57,31 +57,20 @@ public class ReggiesRoom {
 			 		System.out.print("The clock in Reggie's office clicks loudly.");
 			 		System.out.print("\n....");
 			 		System.out.print("\nDid you say something?");
-			 		System.out.print("\nNo? Right you don't talk.");
-			 		System.out.print("\n....");
-			 		System.out.print("\nWhere's Reggie? Shoudn't take that long for a key card");
+			 		System.out.print("\nNo, right you don't talk.");
+			 		System.out.print("\nWhere is Reggie?");
 			 		
 			 	}
 			 	System.out.print("Reggie enters the room with a key card in hand and gives it to Chad.");
 			 	System.out.print("\nReggie: Here you are one key card.");
 			 	System.out.print("\nThanks Reggie.");
-			 	System.out.print("\nReggie: No problem Chad's always been good to me, even if he doesn't talk much.");
-			 	System.out.print("\nWell Chad I guess that's all we need, guess it's time to go home.");
-			 	System.out.print("\nChad shakes Reggie's hand then walks out of the office.");
-			 	System.out.print("\nAs Chad is about to walk home Reggie comes up behind him and taps him on the shoulder.");
-			 	System.out.print("\nReggie: Wanna grab a drink Chad?");
-			 	System.out.print("\nA window opens on one side of the building and a man's head can be seen poking out.");
-			 	System.out.print("\nDid someone say drinks?");
-			 	System.out.print("\nReggie: Wait hold up, are you the narrator?");
-			 	System.out.print("\nNo I'm the tooth fairy. Now are we going or not because I know a great place two blocks down from here and...");
-			 	System.out.print("\nGame Over ending 7.");
+			 	System.out.print("\n");
 			 	
+
 		 }
 		 if(doorChoice.equals("KEEP GOING")||doorChoice.equals("keep going"))
 		 {
-			 System.out.print("\nTo the boss's office then.");
-			 System.out.print("\nHopefully the janitor won't be there.");
-			 BossOffice.Boroom();
+			 
 		 }
 
 	}

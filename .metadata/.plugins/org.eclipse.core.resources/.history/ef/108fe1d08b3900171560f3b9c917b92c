@@ -1,0 +1,32 @@
+//MAAS
+//Brian's office
+//5-12-17
+package rooms;
+
+import java.util.Scanner;
+
+public class BossOffice {
+
+	public static void Boroom()
+	{
+		String dialogueChoice;
+		String doorChoice;
+		int [] plaque = {2017,2018};
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("After going up th last flight of stairs Chad finds himself outside Brian's office.");
+		System.out.print("\nBrian is the boss of Blue Ring and is a good boss.");
+		System.out.print("\nNo use standing here, lets go!");
+		System.out.print("OPEN DOOR");
+		doorChoice = input.nextLine();
+		 if(doorChoice.equals("OPEN DOOR")||doorChoice.equals("open door"))
+		 {
+			 System.out.print("In the office is a plaque that reads" + plaque[0] + ".");
+			 System.out.print("\n");
+			 System.out.print("\n");
+			 System.out.print("");
+		 }
+	}
+
+}
