@@ -63,7 +63,7 @@ public class ReggiesRoom {
 			 	System.out.print("\nReggie: Here you are one key card.");
 			 	System.out.print("\nThanks Reggie.");
 			 	System.out.print("\nReggie: No problem Chad's always been good to me, even if he doesn't talk much.");
-			 	System.out.print("\nWell Chad I guess that's all we need, guess it's time to go home.");
+			 	System.out.print("\nWell Chad I guess that's all we need, it's time to go home.");
 			 	System.out.print("\nChad shakes Reggie's hand then walks out of the office.");
 			 	System.out.print("\nAs Chad is about to walk home Reggie comes up behind him and taps him on the shoulder.");
 			 	System.out.print("\nReggie: Wanna grab a drink Chad?");

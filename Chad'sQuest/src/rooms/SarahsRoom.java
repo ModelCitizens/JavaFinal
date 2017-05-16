@@ -70,6 +70,7 @@ public class SarahsRoom {
 		 if(doorChoice.equals("KEEP GOING")||doorChoice.equals("keep going"))
 		 	{
 		 		System.out.print("Chad hesitates, but continues on to Reggie's office solemnly.");
+		 		ReggiesRoom.Reroom();
 		 	}
 	}
 
