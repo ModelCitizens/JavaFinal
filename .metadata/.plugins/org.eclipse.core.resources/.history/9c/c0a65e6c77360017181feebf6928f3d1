@@ -1,0 +1,50 @@
+package rooms;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class StayPut {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input1 = new Scanner(System.in);
+		String input;
+		 String asnwerLine = null;
+		 String answerLine1 = null;
+		 String answerLine11 = null;
+		 System.out.println("Chad deciedes to stay in his desk, and there is a game open on his computer. PLAY or NO");
+	     input = input1.nextLine();
+	     if(input.equals("PLAY"))
+	     {
+	    	 System.out.println("Welcome to the game of all games. Even and Odds.");
+	    	 System.out.println("EVEN or ODDS");
+	    	 String answerLine = input1.nextLine();
+	    	 Random r = new Random();
+	    	 int computer = r.nextInt(4) + 1;
+	    	 int EvenWin;
+	    	 int OddsWin;
+			if(asnwerLine == "EVEN" && computer == 1||answerLine == "EVEN" && computer == 3)//EvenLose
+	    	 {
+	    		 System.out.println("The answer was odd. HAHAHA You lose");
+	    	 }
+	    	
+	    	if(answerLine1 == "EVEN" && computer == 2 ||answerLine11 == "EVEN" && computer == 4)//EvenWin
+	    	{
+	    		System.out.println("The answer was even, nice one.");
+	    	}
+	    	
+	    	if(answerLine == "ODD" && computer == 2||answerLine == "ODD" && computer == 4)//OddLose
+	    	{
+	    		System.out.println("The answer was even. HAHAHAHA You lose");
+	    	}
+	    	
+	    	if(answerLine == "ODD" && computer == 1||answerLine == "ODD" && computer == 3)//OddWin
+	    	{
+	    		System.out.println("The answer was odd, You did good donkey, you did good.");
+	    	}
+	    	
+	    	 
+	     }
+	}
+
+}

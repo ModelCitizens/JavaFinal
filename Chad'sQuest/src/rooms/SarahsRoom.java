@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class SarahsRoom {
 
-	public static void main(String[] args)
+	static void SaRoom()
 	{
 		String doorChoice;
 		String searchChoice;

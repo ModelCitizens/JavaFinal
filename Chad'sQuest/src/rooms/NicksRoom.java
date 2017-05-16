@@ -1,17 +1,19 @@
 package rooms;
+import java.util.Random;
 import java.util.Scanner;
 public class NicksRoom 
 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
 		 int choice;
 		 String input;
          Scanner input1 = new Scanner(System.in);
-         System.out.println("Welcome to Chad's Quest! A text adventrue game where you type out what you want to do." + 
-         "To know what to enter into the console, the narator will emphasize the word you need to enter," + 
-         "example would be -ENTER, notice how enter is in all caps, this means it's an interative word.");
+         System.out.println("Welcome to Chad's Quest! A text adventrue game where you type out what you want to do."); 
+         System.out.println("To know what to enter into the console, the narator will emphasize the word you need to enter,"); 
+         System.out.println("example would be -ENTER, notice how enter is in all caps, this means it's an interative word.");
          System.out.println("Would you like to play? YES or NO");
          input = input1.nextLine();
          if(input.equals("YES"))
@@ -20,25 +22,26 @@ public class NicksRoom
         	 System.out.println("What is you name?");
            	 System.out.println("Nice to meet you Chad");
                
-        	 System.out.println("Chad is currently in your office and it's almost time to leave" +
-        	 ", but Chad remembers that his key card doesn't work. Chad has to go get a new one or Chad can" + 
-        	 " just go to the RIGHT. Or Chad can make the adventure and go LEFT. Or STAY PUT");
-        	 
-        	 if(input.equals("STAY PUT"))
-        	 {
-        		 System.out.println("Nice, you have just wasted 68 years");
-        		 System.out.println("Game Over ending 1");
-        	 }
-        	 
-        		
+        	 System.out.println("Chad is currently in your office and it's almost time to leave");
+        	 System.out.println("but Chad remembers that his key card doesn't work. Chad has to go get a new one or Chad can"); 
+        	 System.out.println(" just go to the RIGHT. Or Chad can make the adventure and go LEFT. Or STAY PUT");
         	 input = input1.nextLine();
+        	 if(input.equals("STAY PUT"))//GameWithInAGame
+        	 {
+        		 System.out.println("...");
+        		 StayPut.StayPutGame();  	 
+        	 }
+         }
+        	 
+        	 	
+        	
         	 if(input.equals("LEFT"))
         	 {
         		 System.out.println("Common Chad it's quicker just to go right, Just go RIGHT or keep going LEFT");
         		input = input1.nextLine();
         		if(input.equals("RIGHT"))
         		{
-        			
+        		 RightRoom.RightHall();
         		}
         		if(input.equals("LEFT"))
         		{
@@ -102,30 +105,41 @@ public class NicksRoom
         					System.out.println("Chad then nods at Eric, and then uses his door toe leave.");
         					System.out.println("Game Over Ending 3");
         				}
-        				if(input.equals("IGNORE"))
+        				if(input.equals("IGNORE"))//EricOfficeIgnoreChoice
         				{
         					System.out.println("Chad chooses to ignore what he just saw, and just takes a minute to himself outside Eric's office.");
         					System.out.println("Eric then walkes out his office, and nods at Chad, then he goes to lunch. ");
         					System.out.println("Chad goes into the office, and looks around. The only thing in his office is a couple of pictures and a desk.");
         					System.out.println("You would think the guy wouldn't have so many cat posters.");
         					System.out.println("It's honestly creepy to sit in his desk, there are just so many cats staring at you.");
-        					System.out.println("");
+        					System.out.println("Chad sees that 2 drawers unlocked.");
+        					System.out.println("Are you really about to go snooping again? My god I think Eric is coming back, You only have time to look in one drawer");
+        					System.out.println("TOP or BOTTOM Drawer, ");
+        					input = input1.nextLine();
+        			
+     
+        					if(input.equals("BOTTOM"))//FindWhip
+        					{
+        						System.out.println("Chad opens up the bottom drawer and finds a latex mask, and a whip.");
+        						System.out.println("The mask seems to have a little bit of sweat on it, like it has been used recently.");
+        						System.out.println("Chad slams the drawer shut and runs out of the room before Eric gets there.");
+        						System.out.println("The next room is Sarah's room");
+        						SarahsRoom.SaRoom();
+        					}
+        					if(input.equals("TOP"))//ChadGetsCaughtSnooping
+        					{
+        						System.out.println("There's nothing in here but dust.");
+        						System.out.println("Did you really just open that for nothing?");
+        						System.out.println("Eric walks in the room and says: Hey what are you doing???");
+        						System.out.println("Don't just stare at me say something!!");
+        						System.out.println("I think it's time to leave. Just go out his door.");
+        						System.out.println("Game Over ending 4");
+        					}
         				}
         			}
         		}
-        	 }
-        	 
-        	 
-        	 
-        	 
-        	 
-        	 
-        	 
-        	 
-        	 
-        	 
-        	 
-        	 if(input.equals("Turn Around"))//NicksOffice
+        	 } 
+             if(input.equals("Turn Around"))//NicksOffice
         	 {
         		 System.out.println("Please enter password");
         		 input = input1.nextLine();
@@ -159,4 +173,4 @@ public class NicksRoom
          
 	}
 
-}
+
