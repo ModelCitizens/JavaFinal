@@ -9,6 +9,7 @@ public class BossOffice {
 
 	public static void Boroom()
 	{
+		//Why did the programmer quit his job?
 		String dialogueChoice;
 		String doorChoice;
 		String calmChoice;
@@ -34,7 +35,7 @@ public class BossOffice {
 			 dialogueChoice = input.nextLine();
 			 if(dialogueChoice.equals("ASK JOHN")||dialogueChoice.equals("ask john"))
 			 {
-				 System.out.print("This oughta be good. HEY JOHN! C'mere I gotta ask you something.");
+				 System.out.print("\nThis oughta be good. HEY JOHN! C'mere I gotta ask you something.");
 				 System.out.print("\nJohn: Ooooowhat?");
 				 System.out.print("\nI said c'mere.");
 				 System.out.print("\nJohn: Okay!");
@@ -92,5 +93,5 @@ public class BossOffice {
 			 
 		 }
 	}
-
+	//Because he didn't get arrays.
 }
