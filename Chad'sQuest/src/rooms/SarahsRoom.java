@@ -9,6 +9,8 @@ public class SarahsRoom {
 
 	static void SaRoom()
 	{
+		//Why did the functions stop calling each other?
+		
 		String doorChoice;
 		String searchChoice;
 		
@@ -22,12 +24,12 @@ public class SarahsRoom {
 		 doorChoice = input.nextLine();
 		 if(doorChoice.equals("OPEN DOOR")||doorChoice.equals("open door"))
 		 {
-			 System.out.print("Chad opens the door, forgetting company policy 42B subsection 2 sentence ii. \nHe's greeted by the sweet scent of Sarah's perfume.");
+			 System.out.print("\nChad opens the door, forgetting company policy 42B subsection 2 sentence ii. \nHe's greeted by the sweet scent of Sarah's perfume.");
 			 System.out.print("Search DRAWERS, or COMPUTER? >>>");
 			 searchChoice = input.nextLine();
 			 	if(searchChoice.equals("drawers")||searchChoice.equals("DRAWERS"))
 			 	{
-			 		System.out.print("Chad begins searching through the drawers and cabinets of Sarah's office.");
+			 		System.out.print("\nChad begins searching through the drawers and cabinets of Sarah's office.");
 			 		System.out.print("\nWhy? I have no clue I'm not the writer just the narrator, huh what've you got there Chad?");
 			 		System.out.print("\nOh, it looks like Sarah keeps a spare change of clothes. Seems pretty sensible to me.");
 			 		System.out.print("\nUmm, what's with that look? Why are you taking those? Chad? CHAD GET BACK HERE!");
@@ -41,7 +43,7 @@ public class SarahsRoom {
 			 	}
 			 	if(searchChoice.equals("COMPUTER")||searchChoice.equals("computer"))
 			 	{
-			 		System.out.print("Chad sits down at Sarah's desk and finds a small posted note folded under the keyboard.");
+			 		System.out.print("\nChad sits down at Sarah's desk and finds a small posted note folded under the keyboard.");
 			 		System.out.print("\nWhat do you mean there isn't anything written on it?");
 			 		System.out.print("Ughhh, hold up I'll be back.");
 			 		System.out.print("...\n...\n...\n...");
@@ -69,8 +71,9 @@ public class SarahsRoom {
 		 }
 		 if(doorChoice.equals("KEEP GOING")||doorChoice.equals("keep going"))
 		 	{
-		 		System.out.print("Chad hesitates, but continues on to Reggie's office solemnly.");
+		 		System.out.print("\nChad hesitates, but continues on to Reggie's office solemnly.");
+		 		ReggiesRoom.Reroom();
 		 	}
 	}
-
+	//Because they had constant arguments.
 }

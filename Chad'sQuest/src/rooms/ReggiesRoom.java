@@ -6,6 +6,8 @@ public class ReggiesRoom {
 
 	public static void Reroom()
 	{
+		//What do you call a programmer from Finland?
+		
 		String doorChoice;
 		String moralChoice;
 		
@@ -20,7 +22,7 @@ public class ReggiesRoom {
 		doorChoice = input.nextLine();
 		 if(doorChoice.equals("OPEN DOOR")||doorChoice.equals("open door"))
 		 {
-			 System.out.print("Chad opens the door to find Reggie tinkering away at some mechanical doodad.");
+			 System.out.print("\nChad opens the door to find Reggie tinkering away at some mechanical doodad.");
 			 System.out.print("\nReggie: Hello Chad, working late I see.");
 			 System.out.print("\nYou know it wouldn't hurt to say something to the man.");
 			 System.out.print("\nRight you're one of those silent protagonists. That would explain why you're just staring at him.");
@@ -40,7 +42,7 @@ public class ReggiesRoom {
 			 moralChoice = input.nextLine();
 			 	if(moralChoice.equals("LOOK IN BOX")||moralChoice.equals("look in box"))
 			 	{
-			 		System.out.print("Chad begins looking through the box and finds what looks to be a VR helmet.");
+			 		System.out.print("\nChad begins looking through the box and finds what looks to be a VR helmet.");
 			 		System.out.print("\nI read a book about someone being stuck in one of those, better leave it alone.");
 			 		System.out.print("\nAlso in the box is a tiki mask with four brightly colored feathers.");
 			 		System.out.print("\nHey I remember him, didn't he hangout with a wombat with fingerless gloves?");
@@ -51,7 +53,7 @@ public class ReggiesRoom {
 			 	}
 			 	if(moralChoice.equals("WAIT")||moralChoice.equals("wait"))
 			 	{
-			 		System.out.print("The clock in Reggie's office clicks loudly.");
+			 		System.out.print("\nThe clock in Reggie's office clicks loudly.");
 			 		System.out.print("\n....");
 			 		System.out.print("\nDid you say something?");
 			 		System.out.print("\nNo? Right you don't talk.");
@@ -59,11 +61,11 @@ public class ReggiesRoom {
 			 		System.out.print("\nWhere's Reggie? Shoudn't take that long for a key card");
 			 		
 			 	}
-			 	System.out.print("Reggie enters the room with a key card in hand and gives it to Chad.");
+			 	System.out.print("\nReggie enters the room with a key card in hand and gives it to Chad.");
 			 	System.out.print("\nReggie: Here you are one key card.");
 			 	System.out.print("\nThanks Reggie.");
 			 	System.out.print("\nReggie: No problem Chad's always been good to me, even if he doesn't talk much.");
-			 	System.out.print("\nWell Chad I guess that's all we need, guess it's time to go home.");
+			 	System.out.print("\nWell Chad I guess that's all we need, it's time to go home.");
 			 	System.out.print("\nChad shakes Reggie's hand then walks out of the office.");
 			 	System.out.print("\nAs Chad is about to walk home Reggie comes up behind him and taps him on the shoulder.");
 			 	System.out.print("\nReggie: Wanna grab a drink Chad?");
@@ -76,11 +78,11 @@ public class ReggiesRoom {
 		 }
 		 if(doorChoice.equals("KEEP GOING")||doorChoice.equals("keep going"))
 		 {
-			 System.out.print("\nTo the boss's office then.");
+			 System.out.print("To the boss's office then.");
 			 System.out.print("\nHopefully the janitor won't be there.");
 			 BossOffice.Boroom();
 		 }
 
 	}
-
+	//Nerdic.
 }

@@ -9,6 +9,7 @@ public class BossOffice {
 
 	public static void Boroom()
 	{
+		//Why did the programmer quit his job?
 		String dialogueChoice;
 		String doorChoice;
 		String calmChoice;
@@ -16,7 +17,7 @@ public class BossOffice {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("After going up th last flight of stairs Chad finds himself outside Brian's office.");
+		System.out.print("\nAfter going up th last flight of stairs Chad finds himself outside Brian's office.");
 		System.out.print("\nBrian is the spastic boss of Blue Ring. He often leaves to go on business trips leaving the staff to run themselves.");
 		System.out.print("\nNo use standing here, lets go!");
 		System.out.print("OPEN DOOR >>>");
@@ -71,7 +72,7 @@ public class BossOffice {
 					 System.out.print("\nChad looks through John's cart locating the key card and leaving.");
 					 Exit.Exfil();
 				 }
-				 if(dialogueChoice.equals("LET BE")||dialogueChoice.equals("let be"))
+				 if(calmChoice.equals("LET BE")||calmChoice.equals("let be"))
 				 {
 					 System.out.print("\nJohn: Ooowha-");
 					 System.out.print("\nSuddenly a large hole appears and a giant hand flies out smashing John, and the narrator begins laughing.");
@@ -92,5 +93,5 @@ public class BossOffice {
 			 
 		 }
 	}
-
+	//Because he didn't get arrays.
 }
