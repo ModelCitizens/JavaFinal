@@ -16,8 +16,7 @@ public class StayPut {
 		Scanner input1 = new Scanner(System.in);
 		String asnwerLine;
 		String decides;
-		int HumanScore = 0;
-		int ComputerScore = 0;
+		int score = 0;
 		
 		 Random r = new Random();
 		 
@@ -29,7 +28,7 @@ public class StayPut {
 		 decides = input1.nextLine();
 	     if(decides.equals("PLAY"))
 	     {
-	    	 System.out.println("Welcome to the game of all games. Even and Odds.");
+	    	 System.out.println("Welcome to the game of all games. Even and OODS.");
 	    	 System.out.println("EVEN or ODDS");
 	    	 asnwerLine = input1.nextLine();
 	    	
@@ -37,27 +36,31 @@ public class StayPut {
 
 			if(asnwerLine.equals("EVEN") && computer == 1||asnwerLine.equals("EVEN") && computer == 3)//EvenLose
 	    	 {
-	    		 System.out.println("The answer was odd. HAHAHA You lose");
+	    		 System.out.println("The answer was odd. HAHAHA You lose. You have " + score + " points.");
 	    		 System.out.println("Would you like to play again? YES or NO");
 	    		 
 	    	 }
 	    	
 	    	if(asnwerLine.equals("EVEN") && computer == 2 ||asnwerLine.equals("EVEN") && computer == 4)//EvenWin
 	    	{
-	    		System.out.println("The answer was even, nice one.");
+	    		score++;
+	    		System.out.println("The answer was even, nice one. You have " + score + " points.");
+	    		System.out.println("Would you like to play again? YES or NO");
+	    		
+	    	}
+	    	
+	    	if(asnwerLine.equals("ODDS") && computer == 2||asnwerLine.equals("ODD") && computer == 4)//OddLose
+	    	{
+	    		System.out.println("The answer was even. HAHAHAHA You lose. You have " + score + " points.");
 	    		System.out.println("Would you like to play again? YES or NO");
 	    	}
 	    	
-	    	if(asnwerLine.equals("ODD") && computer == 2||asnwerLine.equals("ODD") && computer == 4)//OddLose
+	    	if(asnwerLine.equals("ODDS") && computer == 1||asnwerLine.equals("ODD") && computer == 3)//OddWin
 	    	{
-	    		System.out.println("The answer was even. HAHAHAHA You lose");
+	    		score++;
+	    		System.out.println("The answer was odd, You did good donkey, you did good. You have " + score + " points.");
 	    		System.out.println("Would you like to play again? YES or NO");
-	    	}
 	    	
-	    	if(asnwerLine.equals("ODD") && computer == 1||asnwerLine.equals("ODD") && computer == 3)//OddWin
-	    	{
-	    		System.out.println("The answer was odd, You did good donkey, you did good.");
-	    		System.out.println("Would you like to play again? YES or NO");
 	    	}
 	    	 
 	     }else

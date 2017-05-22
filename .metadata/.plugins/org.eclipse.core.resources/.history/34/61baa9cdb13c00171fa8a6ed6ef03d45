@@ -1,0 +1,27 @@
+package rooms;
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.image.*;
+import java.io.*;
+import javax.imageio.*;
+import javax.swing.*;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+public class ImageTesting 
+{
+       
+      {
+	   
+	
+		
+      }
+}
+
+
+
+
+
+
+
+
