@@ -11,6 +11,7 @@ public class Exit {
 	{
 		//What do computers and air conditioners have in common?
 		String doorChoice;
+		String songChoice;
 		
 		Scanner input = new Scanner(System.in);
 		
@@ -52,7 +53,20 @@ public class Exit {
 			System.out.print("\nTHE E");
 			System.out.print("\nTHE E? What's THE-");
 			System.out.print("\nTHE END. THANK YOU FOR PLAYING. COME BACK SOON!");
+			System.out.print("\nWanna hear a good song?");
+			System.out.print("\nYES or NO?");
+			songChoice = input.nextLine();
+			if(songChoice.equals("YES")||songChoice.equals("yes"))
+			{
+				AudioClips.playSound();
+			}
+			if(songChoice.equals("NO")||songChoice.equals("no"))
+			{
+				System.out.print("\nDon't blame me for your choice.");
+				BadSong.playAnnoying();
+			}
 		}
+		
 	}
 	//They both become useless when you open windows.
 }
