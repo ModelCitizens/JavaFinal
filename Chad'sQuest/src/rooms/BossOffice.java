@@ -3,9 +3,18 @@
 //5-12-17
 package rooms;
 
+
+public class BossOffice 
+{
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
 import java.util.Scanner;
 
 public class BossOffice {
+
 
 	public static void Boroom()
 	{
