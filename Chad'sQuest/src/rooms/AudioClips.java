@@ -16,6 +16,7 @@ public class AudioClips
 			
 			File Clap = new File("C:\\Users\\bm122190\\Desktop\\JavaFinal\\JavaFinal\\Chad'sQuest\\src\\FF Victory.wav");
 			PlaySound(Clap);
+			
 		}
 		static void PlaySound(File Sound)
 		{
